@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <style>
+        #placeholder{ border:3px solid #000}
+    </style>
+</head>
+<body>
+   <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href="../image/1.jpg" title="beef" onclick="showPic(this);return false;">beef</a>
+        </li>
+        <li>
+            <a href="../image/2.jpg" title="hamburger" onclick="showPic(this);return false;">hamburger</a>
+        </li>
+        <li>
+            <a href="../image/3.jpg" title="shrimp" onclick="showPic(this);return false;">shrimp</a>
+        </li>
+        <li>
+            <a href="../image/4.jpg" title="fantasy" onclick="showPic(this);return false;">fantasy</a>
+        </li>
+    </ul>
+    <img id="placeholder" src="../image/blank.jpg" alt="my image gallery" style="width: 800px;height: 600px;"/>
+<script type="application/javascript" src="../js/showPic.js"></script>
+</body>
+</html>
